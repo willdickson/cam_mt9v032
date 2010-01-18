@@ -1,0 +1,731 @@
+# EESchema Netlist Version 1.1 created  18/1/2010-05:07:43
+(
+ ( /4B529E8D $noname  R11 200K {Lib=R}
+  (    1 /1.8V )
+  (    2 N-000009 )
+ )
+ ( /4B529E2B $noname  R12 200K {Lib=R}
+  (    1 /1.8V )
+  (    2 N-000010 )
+ )
+ ( /4B529D96 $noname  C20 100nF {Lib=C}
+  (    1 /1.8V )
+  (    2 /GND(PWR) )
+ )
+ ( /4B529D95 $noname  C19 100nF {Lib=C}
+  (    1 /D_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B529D1C $noname  C22 100nF {Lib=C}
+  (    1 /1.8V )
+  (    2 /GND(PWR) )
+ )
+ ( /4B529D1B $noname  C21 100nF {Lib=C}
+  (    1 /D_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B529BC3 $noname  C3 100nF {Lib=C}
+  (    1 ? )
+  (    2 /GND(PWR) )
+ )
+ ( /4B529BC1 $noname  C9 100nF {Lib=C}
+  (    1 /D_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5299F6 $noname  C11 10uF {Lib=C}
+  (    1 /A_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5297E2 $noname  C10 470pF {Lib=C}
+  (    1 N-000016 )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5297E0 $noname  C12 4.7uF {Lib=C}
+  (    1 /D_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5297DF $noname  C14 10uF {Lib=C}
+  (    1 /D_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5297DD $noname  C4 470nF {Lib=C}
+  (    1 N-000052 )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5297CE $noname  C7 100nF {Lib=C}
+  (    1 N-000052 )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5297CD $noname  C5 10uF {Lib=C}
+  (    1 N-000052 )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5297C8 $noname  C8 100nF {Lib=C}
+  (    1 /1.8V )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5297C6 $noname  C6 10uF {Lib=C}
+  (    1 /1.8V )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5296DE $noname  L1 600R@100MHz {Lib=INDUCTOR}
+  (    1 N-000052 )
+  (    2 /VDDS_1.8(PWR) )
+ )
+ ( /4B5296CB $noname  L2 600R@100MHz {Lib=INDUCTOR}
+  (    1 /1.8V )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5296BE $noname  C2 100nF {Lib=C}
+  (    1 /GND(PWR) )
+  (    2 /GND(PWR) )
+ )
+ ( /4B5296BC $noname  C1 100nF {Lib=C}
+  (    1 /VDDS_1.8(PWR) )
+  (    2 /GND(PWR) )
+ )
+ ( /4B529641 $noname  D1 LED {Lib=LED}
+  (    1 N-000036 )
+  (    2 /GND(PWR) )
+ )
+ ( /4B529617 $noname  R9 1.5K {Lib=R}
+  (    1 N-000017 )
+  (    2 N-000036 )
+ )
+ ( /4B529481 $noname  R10 200K {Lib=R}
+  (    1 /D_VCC )
+  (    2 N-000018 )
+ )
+ ( /4B528EEA $noname  R8 1K {Lib=R}
+  (    1 /D_VCC )
+  (    2 N-000025 )
+ )
+ ( /4B528EE8 $noname  R7 1K {Lib=R}
+  (    1 /D_VCC )
+  (    2 N-000027 )
+ )
+ ( /4B528ED5 $noname  R6 10K {Lib=R}
+  (    1 /D_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B528C45 $noname  R2 1.5K {Lib=R}
+  (    1 /1.8V )
+  (    2 /SDA )
+ )
+ ( /4B528C42 $noname  R1 1.5K {Lib=R}
+  (    1 /1.8V )
+  (    2 /SCL )
+ )
+ ( /4B528A9E $noname  R4 1.5K {Lib=R}
+  (    1 /D_VCC )
+  (    2 N-000014 )
+ )
+ ( /4B528A9B $noname  R5 1.5K {Lib=R}
+  (    1 /D_VCC )
+  (    2 N-000037 )
+ )
+ ( /4B528A3B $noname  R3 200K {Lib=R}
+  (    1 /D_VCC )
+  (    2 N-000026 )
+ )
+ ( /4B528914 $noname  C18 100nF {Lib=C}
+  (    1 /A_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B528912 $noname  C17 100nF {Lib=C}
+  (    1 /A_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B528814 $noname  C13 100nF {Lib=C}
+  (    1 /D_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B528812 $noname  C15 100nF {Lib=C}
+  (    1 /D_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B52880A $noname  C16 100nF {Lib=C}
+  (    1 /D_VCC )
+  (    2 /GND(PWR) )
+ )
+ ( /4B527C9E $noname  U3 MIC5209 {Lib=MIC5209}
+  (    1 N-000052 )
+  (    2 N-000052 )
+  (    3 /D_VCC )
+  (    4 N-000016 )
+  (    5 /GND(PWR) )
+  (    6 /GND(PWR) )
+  (    7 /GND(PWR) )
+  (    8 /GND(PWR) )
+ )
+ ( /4B527ACB $noname  U2 LP5900 {Lib=LP5900}
+  (    1 /A_VCC )
+  (    2 ? )
+  (    3 /GND(PWR) )
+  (    4 N-000052 )
+  (    5 ? )
+  (    6 N-000052 )
+  (    7 /GND(PWR) )
+ )
+ ( /4B52789D $noname  U4 MT9V032 {Lib=MT9V032}
+  (    1 /D_VCC )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 /D_VCC )
+  (    7 /GND(PWR) )
+  (    8 N-000025 )
+  (    9 /GND(PWR) )
+  (   10 N-000027 )
+  (   11 /GND(PWR) )
+  (   12 /GND(PWR) )
+  (   13 /GND(PWR) )
+  (   14 /D_VCC )
+  (   15 N-000019 )
+  (   16 N-000020 )
+  (   17 N-000035 )
+  (   18 N-000021 )
+  (   19 N-000034 )
+  (   20 N-000022 )
+  (   21 N-000033 )
+  (   22 ? )
+  (   23 /GND(PWR) )
+  (   24 N-000037 )
+  (   25 N-000014 )
+  (   26 ? )
+  (   27 N-000017 )
+  (   28 /D_VCC )
+  (   29 /GND(PWR) )
+  (   30 /D_VCC )
+  (   31 /D_VCC )
+  (   32 /GND(PWR) )
+  (   33 /STANDBY )
+  (   34 /GND(PWR) )
+  (   35 /A_VCC )
+  (   36 ? )
+  (   37 ? )
+  (   38 /GND(PWR) )
+  (   39 /A_VCC )
+  (   40 /A_VCC )
+  (   41 N-000023 )
+  (   42 N-000031 )
+  (   43 N-000024 )
+  (   44 N-000029 )
+  (   45 N-000030 )
+  (   46 N-000032 )
+  (   47 /MCLK )
+  (   48 /GND(PWR) )
+ )
+ ( /4B527899 $noname  U5 TXB0108 {Lib=TXB0108}
+  (    1 ? )
+  (    2 /1.8V )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 N-000010 )
+  (   11 /GND(PWR) )
+  (   12 /MCLK )
+  (   13 N-000032 )
+  (   14 N-000030 )
+  (   15 N-000029 )
+  (   16 N-000024 )
+  (   17 N-000031 )
+  (   18 N-000023 )
+  (   19 /D_VCC )
+  (   20 /STANDBY )
+ )
+ ( /4B52787B $noname  U1 PCA9306 {Lib=PCA9306}
+  (    1 /GND(PWR) )
+  (    2 /1.8V )
+  (    3 /SCL )
+  (    4 /SDA )
+  (    5 N-000037 )
+  (    6 N-000014 )
+  (    7 /D_VCC )
+  (    8 N-000026 )
+ )
+ ( /4B527871 $noname  U6 TXB0108 {Lib=TXB0108}
+  (    1 ? )
+  (    2 /1.8V )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 N-000009 )
+  (   11 /GND(PWR) )
+  (   12 N-000018 )
+  (   13 N-000019 )
+  (   14 N-000020 )
+  (   15 N-000021 )
+  (   16 N-000035 )
+  (   17 N-000034 )
+  (   18 N-000022 )
+  (   19 /D_VCC )
+  (   20 N-000033 )
+ )
+ ( /4B53EBF9/4B53DC43 $noname  R6 R {Lib=R}
+  (    1 N-000070 )
+  (    2 /GND(PWR) )
+ )
+ ( /4B53EBF9/4B53DC41 $noname  R1 R {Lib=R}
+  (    1 N-000070 )
+  (    2 ? )
+ )
+ ( /4B53EBF9/4B53DBE6 $noname  R5 R {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /4B53EBF9/4B53DBE4 $noname  R4 R {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /4B53EBF9/4B53CDB2 $noname  RP1 R_PACK4 {Lib=R_PACK4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4B53EBF9/4B53DA5F $noname  R3 R {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /4B53EBF9/4B53DA58 $noname  R2 R {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /4B53EBF9/4B53CDB4 $noname  RP2 R_PACK4 {Lib=R_PACK4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4B53EBF9/4B53CDA3 $noname  RP3 R_PACK4 {Lib=R_PACK4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+/Net 1 "MCLK"
+ U4 47
+ U5 12
+Net 9 ""
+ R11 2
+ U6 10
+Net 10 ""
+ R12 2
+ U5 10
+/Net 11 "D_VCC"
+ C19 1
+ C21 1
+ C9 1
+ C12 1
+ C14 1
+ R10 1
+ R8 1
+ R7 1
+ R6 1
+ R4 1
+ R5 1
+ R3 1
+ C13 1
+ C15 1
+ C16 1
+ U3 3
+ U4 6
+ U4 1
+ U4 14
+ U4 31
+ U4 30
+ U4 28
+ U5 19
+ U1 7
+ U6 19
+/Net 12 "GND(PWR)"
+ C20 2
+ C19 2
+ C22 2
+ C21 2
+ C3 2
+ C9 2
+ C11 2
+ C10 2
+ C12 2
+ C14 2
+ C4 2
+ C7 2
+ C5 2
+ C8 2
+ C6 2
+ L2 2
+ C2 1
+ C2 2
+ C1 2
+ D1 2
+ R6 2
+ C18 2
+ C17 2
+ C13 2
+ C15 2
+ C16 2
+ U3 5
+ U3 6
+ U3 7
+ U3 8
+ U2 7
+ U2 3
+ U4 29
+ U4 11
+ U4 9
+ U4 23
+ U4 32
+ U4 12
+ U4 7
+ U4 48
+ U4 13
+ U4 38
+ U4 34
+ U5 11
+ U1 1
+ U6 11
+ R6 2
+/Net 13 "SCL"
+ R1 2
+ U1 3
+Net 14 ""
+ R4 2
+ U4 25
+ U1 6
+/Net 15 "A_VCC"
+ C11 1
+ C18 1
+ C17 1
+ U2 1
+ U4 35
+ U4 39
+ U4 40
+Net 16 ""
+ C10 1
+ U3 4
+Net 17 ""
+ R9 1
+ U4 27
+Net 18 ""
+ R10 2
+ U6 12
+Net 19 ""
+ U4 15
+ U6 13
+Net 20 ""
+ U4 16
+ U6 14
+Net 21 ""
+ U4 18
+ U6 15
+Net 22 ""
+ U4 20
+ U6 18
+Net 23 ""
+ U4 41
+ U5 18
+Net 24 ""
+ U4 43
+ U5 16
+Net 25 ""
+ R8 2
+ U4 8
+Net 26 ""
+ R3 2
+ U1 8
+Net 27 ""
+ R7 2
+ U4 10
+/Net 28 "STANDBY"
+ U4 33
+ U5 20
+Net 29 ""
+ U4 44
+ U5 15
+Net 30 ""
+ U4 45
+ U5 14
+Net 31 ""
+ U4 42
+ U5 17
+Net 32 ""
+ U4 46
+ U5 13
+Net 33 ""
+ U4 21
+ U6 20
+Net 34 ""
+ U4 19
+ U6 17
+Net 35 ""
+ U4 17
+ U6 16
+Net 36 ""
+ D1 1
+ R9 2
+Net 37 ""
+ R5 2
+ U4 24
+ U1 5
+/Net 38 "SDA"
+ R2 2
+ U1 4
+/Net 40 "1.8V"
+ R11 1
+ R12 1
+ C20 1
+ C22 1
+ C8 1
+ C6 1
+ L2 1
+ R2 1
+ R1 1
+ U5 2
+ U1 2
+ U6 2
+Net 52 ""
+ C4 1
+ C7 1
+ C5 1
+ L1 1
+ U3 1
+ U3 2
+ U2 4
+ U2 6
+/Net 53 "VDDS_1.8(PWR)"
+ L1 2
+ C1 1
+Net 70 ""
+ R6 1
+ R1 1
+}
+#End
